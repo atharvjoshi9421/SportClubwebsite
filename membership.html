@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Clearance | APEX SPORTS</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_css/membership.css">
+</head>
+<body>
+
+    <canvas id="particle-canvas"></canvas>
+    <div class="cursor"></div>
+
+    <nav id="navbar">
+        <a href="index.html"><div class="logo clickable">Apex<span>Sports</span></div></a>
+        <ul class="nav-links">
+            <li><a href="about.html" class="clickable">About</a></li>
+            <li><a href="teams.html" class="clickable">Teams</a></li>
+            <li><a href="stories.html" class="clickable">Stories</a></li>
+            <li><a href="membership.html" class="clickable">Membership</a></li>
+        </ul>
+    </nav>
+
+    <header class="mem-header">
+        <h1 class="glitch" data-text="ACCESS CLEARANCE">ACCESS CLEARANCE</h1>
+        <p style="color:#888; margin-top:10px; letter-spacing:1px;">Select your training protocol. Upgrade your existence.</p>
+    </header>
+
+    <div class="toggle-container reveal">
+        <span class="toggle-label active" id="monthlyLabel">Monthly</span>
+        <label class="switch clickable">
+            <input type="checkbox" id="billingToggle">
+            <span class="slider"></span>
+        </label>
+        <span class="toggle-label" id="yearlyLabel">Yearly <span style="color:var(--primary); font-size:0.7rem;">(-20%)</span></span>
+    </div>
+
+    <section class="pricing-grid">
+        
+        <div class="price-card reveal stagger-1 clickable" data-tilt>
+            <div class="tier-name">Operative</div>
+            <div class="tier-price" data-monthly="$49" data-yearly="$470">$49<span>/mo</span></div>
+            <p class="tier-desc">Essential access for the disciplined solo athlete.</p>
+            <ul class="features-list">
+                <li><i class="fas fa-check"></i> Gym Floor Access</li>
+                <li><i class="fas fa-check"></i> Locker Room & Showers</li>
+                <li><i class="fas fa-check"></i> 1 Guest Pass / mo</li>
+                <li class="dim"><i class="fas fa-times"></i> Group Classes</li>
+                <li class="dim"><i class="fas fa-times"></i> Biometric Analysis</li>
+            </ul>
+            <a href="#" class="btn-price">Initiate</a>
+        </div>
+
+        <div class="price-card reveal stagger-2 clickable" data-tilt style="border-color: #333; background: radial-gradient(circle at top right, rgba(0,242,96,0.05), #111);">
+            <div class="popular-tag">Recommended</div>
+            <div class="tier-name" style="color:var(--primary)">Tactical</div>
+            <div class="tier-price" style="color:var(--primary)" data-monthly="$89" data-yearly="$850">$89<span>/mo</span></div>
+            <p class="tier-desc">Full spectrum access including classes and recovery.</p>
+            <ul class="features-list">
+                <li><i class="fas fa-check"></i> 24/7 Gym Access</li>
+                <li><i class="fas fa-check"></i> Unlimited Classes</li>
+                <li><i class="fas fa-check"></i> Sauna & Cold Plunge</li>
+                <li><i class="fas fa-check"></i> Nutrition App Access</li>
+                <li class="dim"><i class="fas fa-times"></i> 1-on-1 Coaching</li>
+            </ul>
+            <a href="#" class="btn-price" style="background:var(--primary); color:#000; border-color:var(--primary);">Initiate</a>
+        </div>
+
+        <div class="price-card reveal stagger-3 clickable" data-tilt>
+            <div class="tier-name">Vanguard</div>
+            <div class="tier-price" data-monthly="$149" data-yearly="$1430">$149<span>/mo</span></div>
+            <p class="tier-desc">The ultimate package with personalized coaching.</p>
+            <ul class="features-list">
+                <li><i class="fas fa-check"></i> All Tactical Features</li>
+                <li><i class="fas fa-check"></i> 4x Personal Training</li>
+                <li><i class="fas fa-check"></i> Weekly Biometrics</li>
+                <li><i class="fas fa-check"></i> Private Lounge Access</li>
+                <li><i class="fas fa-check"></i> Gear Laundry Service</li>
+            </ul>
+            <a href="#" class="btn-price">Initiate</a>
+        </div>
+
+    </section>
+
+    <section class="specs-section">
+        <div class="section-header reveal" style="text-align:center; margin-bottom:50px;">
+            <h2 style="font-family:var(--font-head); text-transform:uppercase;">Technical Specs</h2>
+            <p style="color:#666;">Detailed feature comparison.</p>
+        </div>
+        <div class="specs-container reveal">
+            <table class="tech-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Operative</th>
+                        <th>Tactical</th>
+                        <th>Vanguard</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Access Hours</td>
+                        <td>06:00 - 22:00</td>
+                        <td>24 / 7</td>
+                        <td>24 / 7</td>
+                    </tr>
+                    <tr>
+                        <td>Group Classes</td>
+                        <td class="cross"><i class="fas fa-times"></i></td>
+                        <td class="check"><i class="fas fa-check"></i></td>
+                        <td class="check"><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Recovery Zone</td>
+                        <td class="cross"><i class="fas fa-times"></i></td>
+                        <td class="check"><i class="fas fa-check"></i></td>
+                        <td class="check"><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>AI Motion Tracking</td>
+                        <td class="cross"><i class="fas fa-times"></i></td>
+                        <td class="cross"><i class="fas fa-times"></i></td>
+                        <td class="check"><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Guest Privileges</td>
+                        <td>1 / mo</td>
+                        <td>4 / mo</td>
+                        <td>Unlimited</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="stories-section">
+        <div class="story-header reveal">
+            <h2>Field Reports</h2>
+            <p style="color:#666;">Verified data from active agents.</p>
+        </div>
+        <div class="story-grid">
+            
+            <div class="story-card reveal clickable">
+                <div class="story-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="story-text">"I started on the Operative plan but upgraded to Tactical for the recovery zone. The cold plunge has completely fixed my inflammation issues."</p>
+                <div class="story-author">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop" class="author-img" alt="User">
+                    <div class="author-info">
+                        <h4>Sarah Jenkins</h4>
+                        <span>Tactical Member</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-card reveal clickable" style="transition-delay: 0.1s;">
+                <div class="story-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="story-text">"The Vanguard plan is expensive, but the biometrics are worth it. Seeing my power output data increase week over week is addictive."</p>
+                <div class="story-author">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop" class="author-img" alt="User">
+                    <div class="author-info">
+                        <h4>Michael Ross</h4>
+                        <span>Vanguard Member</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-card reveal clickable" style="transition-delay: 0.2s;">
+                <div class="story-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="story-text">"Best facility in the city. No crowded machines, high-tech atmosphere, and the staff actually know what they're doing."</p>
+                <div class="story-author">
+                    <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1887&auto=format&fit=crop" class="author-img" alt="User">
+                    <div class="author-info">
+                        <h4>David Chen</h4>
+                        <span>Operative Member</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div style="text-align:center; margin-top:40px;">
+            <a href="stories.html" class="clickable" style="color:var(--primary); text-decoration:none; border-bottom:1px solid var(--primary);">View The Full Archive <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+        <footer>
+    <div class="footer-container">
+        <div class="footer-col">
+            <a href="index.html"><div class="logo" style="margin-bottom: 20px;">Apex<span>Sports</span></div></a>
+            <p>Forging elite athletes through data-driven biomechanics and world-class facilities. Join the revolution today.</p>
+            <div class="social-icons">
+                <a href="#" class="clickable"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="clickable"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="clickable"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="clickable"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h4>Explore</h4>
+            <ul class="footer-links">
+                 <li><a href="about.html" class="clickable">About</a></li>
+                <li><a href="teams.html" class="clickable">Teams</a></li>
+                <li><a href="stories.html" class="clickable">Stories</a></li>
+                <li><a href="membership.html" class="clickable">Membership</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <a href="contact.html"><h4>Contact Us</h4></a>
+            <ul class="footer-links">
+                <li><i class="fas fa-map-marker-alt" style="color:var(--primary); margin-right:10px;"></i> 101 Elite Ave, Sports City</li>
+                <li><i class="fas fa-phone" style="color:var(--primary); margin-right:10px;"></i> +1 (555) 123-4567</li>
+                <li><i class="fas fa-envelope" style="color:var(--primary); margin-right:10px;"></i> support@apexsports.com</li>
+                <li><i class="fas fa-clock" style="color:var(--primary); margin-right:10px;"></i> Mon - Sun: 24 Hours</li>
+            </ul>
+        </div>
+
+        <div class="footer-col footer-newsletter">
+            <h4>Newsletter</h4>
+            <p>Subscribe for training tips and exclusive offers.</p>
+            <form>
+                <input type="email" placeholder="Your Email" required>
+                <button type="submit" class="clickable"><i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>&copy; 2026 <span>APEX SPORTS TECH</span>. All Rights Reserved. Designed for Champions.</p>
+    </div>
+</footer>
+
+    <script src="script_js/membership.js"></script>
+</body>
+</html>

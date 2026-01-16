@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APEX SPORTS - Global Elite</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="preloader">
+        <div class="loader-text">Apex Sports</div>
+        <div class="loader-bar"></div>
+    </div>
+
+    <div class="cursor"></div>
+
+    <nav id="navbar">
+        <a href="index.html"><div class="logo clickable">Apex<span>Sports</span></div></a>
+        <ul class="nav-links">
+            <li><a href="about.html" class="clickable">About</a></li>
+            <li><a href="teams.html" class="clickable">Teams</a></li>
+            <li><a href="stories.html" class="clickable">Stories</a></li>
+            <li><a href="membership.html" class="clickable">Membership</a></li>
+        </ul>
+        <a href="contact.html"><button class="nav-btn clickable">Contact</button></a>
+    </nav>
+
+    <section class="hero">
+        <h1>Forge Your<br>Legacy</h1>
+        <p>The intersection of athletic dominance and technological precision.</p>
+        <a href="#disciplines" class="btn-glow clickable">Begin Journey</a>
+    </section>
+
+    <section class="stats-section reveal">
+        <div class="stat-box">
+            <span class="stat-number" data-target="5000">0</span>
+            <span class="stat-label">Active Members</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-number" data-target="150">0</span>
+            <span class="stat-label">Pro Coaches</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-number" data-target="12">0</span>
+            <span class="stat-label">Global Locations</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-number" data-target="45">0</span>
+            <span class="stat-label">Olympians Trained</span>
+        </div>
+    </section>
+
+    <div class="marquee-container">
+        <div class="marquee-text">
+            Performance • Discipline • Technology • Victory • Stamina • Precision • Performance • Discipline • Technology • Victory • Stamina • Precision
+        </div>
+    </div>
+
+    <section id="about" class="timeline-section">
+        <div class="section-header reveal">
+            <h2>Our Evolution</h2>
+            <p>From a local gym to a global athletic powerhouse.</p>
+        </div>
+        <div class="timeline">
+            <div class="container left reveal-left stagger-1">
+                <div class="content">
+                    <h2>2018</h2>
+                    <p>Founded in Mumbai with a focus on biomechanics and data-driven training.</p>
+                </div>
+            </div>
+            <div class="container right reveal-right stagger-2">
+                <div class="content">
+                    <h2>2020</h2>
+                    <p>Partnered with Propix Tech to integrate AI motion capture in all arenas.</p>
+                </div>
+            </div>
+            <div class="container left reveal-left stagger-3">
+                <div class="content">
+                    <h2>2023</h2>
+                    <p>Expanded globally with facilities in London, Dubai, and Singapore.</p>
+                </div>
+            </div>
+            <div class="container right reveal-right stagger-4">
+                <div class="content">
+                    <h2>2025</h2>
+                    <p>Launched the 'Elite Athlete' program, training Olympians worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="disciplines">
+        <div class="section-header reveal" style="padding: 50px 50px 20px;">
+            <h2>Disciplines</h2>
+            <p>Master your craft in world-class environments.</p>
+        </div>
+        <div class="sports-grid">
+            <div class="sport-card reveal stagger-1 clickable">
+                <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=2070&auto=format&fit=crop" alt="Gym">
+                <div class="sport-info">
+                    <div class="sport-icon"><i class="fas fa-dumbbell"></i></div>
+                    <h3>Strength</h3>
+                    <p>Olympic Lifting & Hypertrophy</p>
+                </div>
+            </div>
+            <div class="sport-card reveal stagger-2 clickable">
+                <img src="https://images.unsplash.com/photo-1547347298-4074fc3086f0?q=80&w=2070&auto=format&fit=crop" alt="Yoga">
+                <div class="sport-info">
+                    <div class="sport-icon"><i class="fas fa-spa"></i></div>
+                    <h3>Mobility</h3>
+                    <p>Yoga & Rehabilitation</p>
+                </div>
+            </div>
+            <div class="sport-card reveal stagger-3 clickable">
+                <img src="https://images.unsplash.com/photo-1565185691168-ad7f98cb8e07?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8RW5kdXJhbmNlfGVufDB8fDB8fHww" alt="Running">
+                <div class="sport-info">
+                    <div class="sport-icon"><i class="fas fa-running"></i></div>
+                    <h3>Endurance</h3>
+                    <p>Track, Field & Marathon Prep</p>
+                </div>
+            </div>
+            <div class="sport-card reveal stagger-4 clickable">
+                <img src="https://images.unsplash.com/photo-1515523110800-9415d13b84a8?q=80&w=2069&auto=format&fit=crop" alt="Martial Arts">
+                <div class="sport-info">
+                    <div class="sport-icon"><i class="fas fa-fist-raised"></i></div>
+                    <h3>Combat</h3>
+                    <p>MMA, Boxing & Jiu-Jitsu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="video-section">
+        <div class="video-overlay"></div>
+        <img class="video-bg" src="https://images.unsplash.com/photo-1574680096141-9c3a8cae61c4?q=80&w=2069&auto=format&fit=crop" alt="Arena Background">
+        <div class="video-content reveal">
+            <h2>The Arena</h2>
+            <p>Where champions are made. Experience the atmosphere.</p>
+            <a href="#" class="play-btn clickable"><i class="far fa-play-circle"></i></a>
+        </div>
+    </section> -->
+
+    <section id="testimonials" class="testimonials">
+        <div class="section-header reveal">
+            <h2>Success Stories</h2>
+            <p>Hear from those who transformed their lives.</p>
+        </div>
+        <div class="testimonial-grid">
+            <div class="test-card reveal stagger-1 clickable">
+                <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                <p class="test-text">"The biomechanics analysis completely changed how I run. I've shaved 10 minutes off my marathon time in just 6 months."</p>
+                <div class="test-author">
+                    <h4>James Carter</h4>
+                    <span>Marathon Runner</span>
+                </div>
+            </div>
+            <div class="test-card reveal stagger-2 clickable">
+                <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                <p class="test-text">"Apex isn't just a gym, it's a lab for your body. The recovery facilities are unmatched in the entire city."</p>
+                <div class="test-author">
+                    <h4>Sarah Lee</h4>
+                    <span>Pro Tennis Player</span>
+                </div>
+            </div>
+            <div class="test-card reveal stagger-3 clickable">
+                <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                <p class="test-text">"I joined for the community and stayed for the results. The 'Elite' program pushed me beyond my limits."</p>
+                <div class="test-author">
+                    <h4>Michael Ross</h4>
+                    <span>Crossfit Athlete</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team-section">
+        <div class="reveal">
+            <h2 style="font-size: 3rem; text-transform: uppercase;">Meet The <span style="color:var(--primary)">Architects</span></h2>
+            <p style="color:#666; margin-top: 10px;">World-class coaching staff dedicated to your performance.</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-member reveal stagger-1 clickable">
+                <div class="member-img">
+                    <img src="https://images.unsplash.com/photo-1531384441138-2736e62e0919?q=80&w=1974&auto=format&fit=crop" alt="Coach 1">
+                </div>
+                <h3>Sarah Jenks</h3>
+                <p>Head of Biomechanics</p>
+            </div>
+            <div class="team-member reveal stagger-2 clickable">
+                <div class="member-img">
+                    <img src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=1974&auto=format&fit=crop" alt="Coach 2">
+                </div>
+                <h3>Marcus Aurelius</h3>
+                <p>Strength Coordinator</p>
+            </div>
+            <div class="team-member reveal stagger-3 clickable">
+                <div class="member-img">
+                    <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2070&auto=format&fit=crop" alt="Coach 3">
+                </div>
+                <h3>Elena Kovac</h3>
+                <p>Nutrition Specialist</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="ecosystem" class="ecosystem-section">
+    <div class="section-header reveal">
+        <h2>Training Ecosystem</h2>
+        <p>Select your battlefield. Optimized for every discipline.</p>
+    </div>
+
+    <div class="ecosystem-grid">
+        
+        <div class="zone-card reveal stagger-1 clickable">
+            <div class="zone-bg" style="background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop');"></div>
+            <div class="zone-overlay"></div>
+            <div class="zone-content">
+                <div class="zone-icon"><i class="fas fa-bolt"></i></div>
+                <h3>High Voltage</h3>
+                <div class="zone-hidden">
+                    <p>Explosive power training using velocity-based tracking technology.</p>
+                    <ul class="zone-tags">
+                        <li>Plyometrics</li>
+                        <li>Sprinting</li>
+                        <li>VBT</li>
+                    </ul>
+                    <span class="zone-btn">Enter Zone <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="zone-card reveal stagger-2 clickable">
+            <div class="zone-bg" style="background-image: url('https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?q=80&w=2069&auto=format&fit=crop');"></div>
+            <div class="zone-overlay"></div>
+            <div class="zone-content">
+                <div class="zone-icon"><i class="fas fa-shield-alt"></i></div>
+                <h3>Iron Cage</h3>
+                <div class="zone-hidden">
+                    <p>Full-contact MMA and boxing facilities with impact analysis.</p>
+                    <ul class="zone-tags">
+                        <li>Boxing</li>
+                        <li>Muay Thai</li>
+                        <li>BJJ</li>
+                    </ul>
+                    <span class="zone-btn">Enter Zone <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="zone-card reveal stagger-3 clickable">
+            <div class="zone-bg" style="background-image: url('https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?q=80&w=1925&auto=format&fit=crop');"></div>
+            <div class="zone-overlay"></div>
+            <div class="zone-content">
+                <div class="zone-icon"><i class="fas fa-dna"></i></div>
+                <h3>Bio-Lab</h3>
+                <div class="zone-hidden">
+                    <p>Advanced recovery protocols including cryotherapy and hyperbaric chambers.</p>
+                    <ul class="zone-tags">
+                        <li>Cryo</li>
+                        <li>Massage</li>
+                        <li>Infrared</li>
+                    </ul>
+                    <span class="zone-btn">Enter Zone <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="zone-card reveal stagger-4 clickable">
+            <div class="zone-bg" style="background-image: url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1975&auto=format&fit=crop');"></div>
+            <div class="zone-overlay"></div>
+            <div class="zone-content">
+                <div class="zone-icon"><i class="fas fa-vr-cardboard"></i></div>
+                <h3>Virtual Ops</h3>
+                <div class="zone-hidden">
+                    <p>Train anywhere with our VR-integrated remote coaching platform.</p>
+                    <ul class="zone-tags">
+                        <li>VR Cycling</li>
+                        <li>Remote Coach</li>
+                        <li>AI Plans</li>
+                    </ul>
+                    <span class="zone-btn">Enter Zone <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section> 
+   
+
+   <footer>
+    <div class="footer-container">
+        <div class="footer-col">
+            <a href="index.html"><div class="logo" style="margin-bottom: 20px;">Apex<span>Sports</span></div></a>
+            <p>Forging elite athletes through data-driven biomechanics and world-class facilities. Join the revolution today.</p>
+            <div class="social-icons">
+                <a href="#" class="clickable"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="clickable"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="clickable"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="clickable"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h4>Explore</h4>
+            <ul class="footer-links">
+                <li><a href="about.html" class="clickable">About</a></li>
+                <li><a href="teams.html" class="clickable">Teams</a></li>
+                <li><a href="stories.html" class="clickable">Stories</a></li>
+                <li><a href="membership.html" class="clickable">Membership</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <a href="contact.html"><h4>Contact Us</h4></a>
+            <ul class="footer-links">
+                <li><i class="fas fa-map-marker-alt" style="color:var(--primary); margin-right:10px;"></i> 101 Elite Ave, Sports City</li>
+                <li><i class="fas fa-phone" style="color:var(--primary); margin-right:10px;"></i> +1 (555) 123-4567</li>
+                <li><i class="fas fa-envelope" style="color:var(--primary); margin-right:10px;"></i> support@apexsports.com</li>
+                <li><i class="fas fa-clock" style="color:var(--primary); margin-right:10px;"></i> Mon - Sun: 24 Hours</li>
+            </ul>
+        </div>
+
+        <div class="footer-col footer-newsletter">
+            <h4>Newsletter</h4>
+            <p>Subscribe for training tips and exclusive offers.</p>
+            <form>
+                <input type="email" placeholder="Your Email" required>
+                <button type="submit" class="clickable"><i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>&copy; 2026 <span>APEX SPORTS TECH</span>. All Rights Reserved. Designed for Champions.</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
