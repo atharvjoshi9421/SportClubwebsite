@@ -133,8 +133,8 @@
         .stat-label { color: var(--gray); text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem; margin-top: 10px; }
 
         /* --- MARQUEE --- */
-        .marquee-container { background: var(--primary); padding: 15px 0; overflow: hidden; transform: rotate(-2deg) scale(1.05); margin: 50px 0; border-top: 2px solid white; border-bottom: 2px solid white; }
-        .marquee-text { white-space: nowrap; font-size: 3rem; font-weight: 900; color: var(--dark); text-transform: uppercase; animation: scrollLeft 20s linear infinite; }
+        .marquee-container { background: var(--primary); padding: 15px 0; overflow: hidden; transform: rotate(0deg) scale(1.05); margin: 50px 0; border-top: 2px solid white; border-bottom: 2px solid white; }
+        .marquee-text { white-space: nowrap; font-size: 3rem; font-weight: 900; color: var(--dark); text-transform: uppercase; animation: scrollLeft 10s linear infinite; }
         
         /* --- TIMELINE --- */
         .timeline-section { padding: 100px 50px; background: var(--darker); position: relative; }
